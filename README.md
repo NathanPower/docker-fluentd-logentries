@@ -28,12 +28,12 @@ This file is read on changes, it allows on fly modifications.
 ## Usage
 
 ```
-		<source>
-			type secure_forward
-			shared_key         secret_string
-			self_hostname      server.fqdn.local  # This fqdn is used as CN (Common Name) of certificates
-			cert_auto_generate yes                # This parameter MUST be specified
-		</source>
+	<source>
+		type secure_forward
+		shared_key         secret_string
+		self_hostname      server.fqdn.local  # This fqdn is used as CN (Common Name) of certificates
+		cert_auto_generate yes                # This parameter MUST be specified
+	</source>
 
     <match pattern>
       type logentries
